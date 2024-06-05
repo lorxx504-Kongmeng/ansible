@@ -8,8 +8,9 @@
  - ansible all -m gather_facts
  - limited the gather_facts: ansible all -m gather_facts --limit ubuntu@ec2-3-95-29-172.compute-1.amazonaws.com
 
- - ansible all -m apt -a "name=default-jdk state=present update_cache=yes" --become
 # Explanation:
+ - ansible all -m apt -a "name=default-jdk state=present update_cache=yes" --become
+ 
     ansible all: This targets all hosts in your inventory file. You can replace all with a specific group or host if needed.
     -m apt: This specifies that you are using the apt module.
     -a "name=default-jdk state=present update_cache=yes": This passes the arguments to the apt module.
