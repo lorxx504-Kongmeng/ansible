@@ -1,3 +1,14 @@
-ubuntu@ec2-3-95-29-172.compute-1.amazonaws.com
-ubuntu@ec2-3-82-143-208.compute-1.amazonaws.com
-ubuntu@ec2-44-201-130-85.compute-1.amazonaws.com
+all:
+  hosts:
+    server_1:
+      ansible_host: 192.168.182.133
+      ansible_user: server_1
+      ansible_ssh_pass: 12345
+    server_2:
+      ansible_host: 192.168.182.132
+      ansible_user: server_2
+      ansible_ssh_pass: 12345
+    server_3:
+      ansible_host: 192.168.182.134
+      ansible_user: server_3
+      ansible_ssh_pass: 12345
