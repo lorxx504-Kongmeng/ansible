@@ -18,3 +18,5 @@
     state=present: Ensures that the package is installed.
     update_cache=yes: Updates the apt cache before installing the package.
     --become: This runs the command with sudo privileges, which is necessary for installing packages.
+
+# This is from ubuntu VMWare Server comments
