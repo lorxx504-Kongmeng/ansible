@@ -1,0 +1,11 @@
+---
+
+- name:
+  hosts: all
+  become: true
+  tasks:
+  - name: shutdown servers
+    command: /sbin/shutdown now
+    ignore_errors: yes
+      
+
