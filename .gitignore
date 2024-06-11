@@ -3,3 +3,6 @@
 
 # Ignore .vagrant directory and all its contents
 .vagrant/
+
+ansible/adhoc/.vagrant
+.gitignore
