@@ -5,4 +5,3 @@
 .vagrant/
 
 ansible/adhoc/.vagrant
-.gitignore
